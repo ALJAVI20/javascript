@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(68, 140, 202);
+            color: rgb(255, 252, 252);
+            font: normal 18pt arial;
+        }
+    </style>
+    
+</head>
+<body>
+    <form action="index.html" method="post">
+
+        <b> usuario:</b>
+        
+        <input type="text" name="nome" required>
+        
+        <b> senha:</b>
+        
+        <input type="password" name="senha" required>
+        
+        <input type="submit" name="submit" value="login">
+        
+        </form>          
+    <h1>Iniciando estudos com </h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em javascript.</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.querySelector('div#msg')
+     
+        
+    </script>
+</body>
+</html>
